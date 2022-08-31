@@ -1,0 +1,95 @@
+/* https://stackoverflow.com/questions/41914954/how-to-force-a-fixed-column-width-with-a-bootstrap-grid-and-keep-the-other-ones */
+/*
+FONTS:
+font-family: 'Fjalla One', sans-serif;
+font-family: 'Kalam', cursive;
+*/
+
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+  overflow: hidden;
+}
+
+li{
+  color:white;
+  font-size: 1.9em;
+  display: inline;
+}
+
+li:hover {
+  color: #7CEBB7;
+
+
+}
+
+.bg{
+  background-image: url("webBG.png");
+  height: 100%;
+  background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+
+.bottom {
+  justify-content: center;
+  align-items: baseline;
+  text-align: center;
+}
+
+.center{
+  justify-content: center;
+align-items: center
+}
+
+.flex-container {
+  height: 100%;
+  display: flex;
+}
+
+.menu {
+  flex-direction: column;
+}
+
+.nav-item{
+  padding-left: 2%;
+  padding-right: 2%;
+  font-size: 2.5em;
+  margin-top: 0.2%;
+font-family: 'Fjalla One', sans-serif;
+
+}
+
+.no-padding {
+   padding: 0 !important;
+   margin: 0 !important;
+}
+
+.logo{
+  text-align: center;
+  color: white;
+  width: 40%;
+
+}
+
+.sub-title{
+  padding-top: 0.2em;
+  color: #7cebb7;
+font-family: 'Kalam', cursive;
+font-size: 2em;
+text-align: center;
+}
+
+.handle{
+  width: 5%;
+margin: 0.7em;
+}
+
+/* ****HEADER NAV**** */
+.header-nav{
+  background-color: #122838;
+}
