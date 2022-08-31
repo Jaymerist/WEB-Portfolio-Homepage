@@ -28,7 +28,7 @@ li:hover {
 }
 
 .bg{
-  background-image: url("webBG.png");
+  background-image: url("images/webBG.png");
   height: 100%;
   background-position: center;
  background-repeat: no-repeat;
